@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'street';
+    src: url('asset/DaStreets.ttf') format('truetype');
+}
+
+body {
+    background-color: #333232;
+}
+
+#conteneur {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.prenom {
+    font-family: 'street', sans-serif;
+    color: #E1AD01;
+    font-size: 4em;
+    width: 1000px;
+    margin-top: -1.5em;
+    margin-left: -4em;
+}
+.Centre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    background-color: ;
+    font-family: 'street', sans-serif;
+    color: #E1AD01;
+    font-size: 2em;
+    width: 1000px;
+    margin-top: 3em;
+    margin-right: -53em;
+}
+
+
+.Left {
+    width: 400px;
+    height: 200px;
+    text-align: end;
+}
+
+.empty {
+    background-color: black;
+}
+
+.contact {
+    padding-top: 20%;
+    padding-right: 5%;
+    font-family: 'Roboto', sans-serif;
+    color: #E1AD01;
+    font-size: 0.7em;
+}
+
+.Social img {
+    width: 2rem; 
+}
+.Social img:hover {background-color: #E1AD01;}
+
+.logo {
+    justify-content: center;
+    align-items: center;
+}
+
+.Right {
+    width: 400px;
+    height: 200px;
+    text-align: start; 
+}
+
+.Right p {
+    padding-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    color: #E1AD01;
+}
+
+.job p {
+    background-color: #E1AD01;
+    color: #333232;
+    text-align: start;
+}
+
+.about {
+    text-align: justify;
+}
+
+.button {
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 5%;
+    padding-left: 2em;
+}
+
+.button > a {
+    text-decoration: none;
+    text-decoration-line: none;
+    font-family: 'Roboto', sans-serif;
+    color: #E1AD01;
+    background-color: #333232;
+    display: inline-block;
+    padding: 0em 1.5em 0em 1.5em;
+}
+
+.button a:first-child {
+    border-right: solid 0.1em #E1AD01;
+}
+
+.button a:nth-child(2) {
+    border-left: solid 0.1em #E1AD01;
+}
+
+.button a:hover {
+    color: #333232;
+    background-color: #E1AD01;
+}
