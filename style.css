@@ -1,0 +1,73 @@
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 2fr 0.5fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". Top ."
+    "Left Photo Right"
+    ". Bottom .";
+}
+
+.Photo { grid-area: Photo; }
+
+.Top {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    "Prenom Prenom Prenom";
+  grid-area: Top;
+}
+
+.Prenom { grid-area: Prenom; }
+
+.Left {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . Name"
+    ". . Name"
+    "Contact Contact Contact";
+  grid-area: Left;
+}
+
+.Name { grid-area: Name; }
+
+.Contact { grid-area: Contact; }
+
+.Right {  display: grid;
+  grid-template-columns: 0.5fr 1.5fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Job . ."
+    "Job . ."
+    "Button Button .";
+  grid-area: Right;
+}
+
+.Job { grid-area: Job; }
+
+.Button { grid-area: Button; }
+
+.Bottom {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". Social Social"
+    ". . ."
+    ". . .";
+  grid-area: Bottom;
+}
+
+.Social { grid-area: Social; }
+
