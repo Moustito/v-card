@@ -5,9 +5,13 @@
 
 body {
     background-color: #333232;
+    position: fixed;
+    top: 20;
+    left: 150;
 }
 
 #conteneur {
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,7 +23,7 @@ body {
     font-family: 'street', sans-serif;
     color: #E1AD01;
     font-size: 4em;
-    width: 1000px;
+    width: 100%;
     margin-top: -1.5em;
     margin-left: -4em;
 }
@@ -31,11 +35,10 @@ body {
 }
 
 .name {
-    background-color: ;
     font-family: 'street', sans-serif;
     color: #E1AD01;
     font-size: 2em;
-    width: 1000px;
+    width: 100%;
     margin-top: 3em;
     margin-right: -53em;
 }
