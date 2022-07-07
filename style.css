@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'street';
+    src: url('asset/DaStreets.ttf') format('truetype');
+}
+
+/*
+#333232 grey
+#E1AD01 yellow
+#86A397
+*/
+body {
+    background-color: #333232;
+}
+
+#Conteneur {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+#Left {
+    height: 380px;
+    position: absolute;
+    left: 20;
+    padding: 10px;
+}
+
+.Info {
+    width: 310px;
+    font-family: 'Roboto';
+    color: #E1AD01;
+    text-align: justify;
+}
+
+.Info h1 {
+    width: none;
+    font-family: 'street';
+    font-size: 40px;
+}
+
+.Info p:first-of-type {
+    font-family: 'Oswald';
+}
+
+.Button {}
+
+.button>a {
+    text-decoration: none;
+    text-decoration-line: none;
+    font-family: 'Roboto', sans-serif;
+    color: #E1AD01;
+    background-color: #333232;
+    display: inline-block;
+    padding: 0em 1.5em 0em 1.5em;
+}
+
+.button a:first-child {
+    border-right: solid 0.1em #E1AD01;
+    border-left: solid 0.1em #E1AD01;
+}
+
+
+.button a:hover {
+    color: #333232;
+    background-color: #E1AD01;
+}
+
+#Centre {
+    position: absolute;
+    align-items: center;
+    top: 0;
+}
+
+.Logo {}
+
+#Right {
+    position: absolute;
+    bottom: 20;
+    right: 20;
+    text-align: right;
+    font-size: 10px;
+    font-family: 'Roboto';
+    color: #E1AD01;
+}
+
+.Contact {}
+
+.Social {}
